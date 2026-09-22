@@ -1,0 +1,29 @@
+WT vs Documented Mutant AR Protein Sequence Comparison
+=======================================================
+
+Gene: AR
+Reference transcript: NM_000044.6
+Reference protein: NP_000035.2
+
+Documented variant:
+NM_000044.6:c.2296G>A
+Protein consequence: p.Ala766Thr
+Mutation type: Missense
+
+WT protein length: 920 amino acids
+Mutant protein length: 920 amino acids
+
+Nucleotide sequence around the mutation:
+WT: GCT
+Mutant: ACT
+
+Comparison:
+The documented mutation changes one nucleotide from G to A at
+c.2296. This changes the amino acid from alanine to threonine
+at position 766. The reading frame and protein length stay the
+same, and no premature stop codon is produced.
+
+Conclusion:
+The c.2296G>A mutation is a missense mutation that changes
+alanine to threonine at position 766. The mutation does not
+change the reading frame or the overall length of the AR protein.
