@@ -1,0 +1,24 @@
+#Disease Background
+
+  Spinal and Bulbar Muscular Atrophy (SBMA) is an inherited neuromuscular disorder characterized by progressive weakness and wasting of the bulbar, facial, and limb muscles (La Spada, 2026). This disease is also 
+known as Kennedy disease and primarily affects males because the responsible androgen receptor (AR) gene is located on the X chromosome. The SBMA results from the degradation and loss of lower motor neurons in 
+the spinal cord and brainstem (Tanaka et al., 2012).
+
+	The genetic cause of SBMA is due to the increase in CAG trinucleotide repeats in exon 1 of the AR gene, which is located in the X chromosome at Xq12 (La Spada et al., 1992). The AR gene provides instructions 
+for making the androgen receptor, a protein that responds to male sex hormones. The expanded CAG repeats produce an unusually long polyglutamine region in the androgen receptor, causing the X-linked neuromotor 
+disorder spinal and bulbar muscular atrophy (Belikov et al., 2015).
+
+#Gene and Normal Protein
+
+The AR gene is located on the X chromosome at Xq12. It encodes the androgen receptor (AR) protein, which responds to male sex hormones. The protein receives hormone signals and helps control the activity of 
+certain genes. It is normally found in both the cytoplasm and nucleus of the cell. The AR protein is involved in hormone signaling and gene regulation.
+
+#Reference Sequences
+
+The reference transcript used is NM_000044.6, which is the RefSeq transcript for AR. The corresponding reference protein is NP_000035.2. The AR coding sequence (CDS) used for the analysis is 2,763 bp and 
+produces a predicted protein of 920 amino acids.
+
+Reference transcript: NM_000044.6
+Reference protein: NP_000035.2
+CDS length: 2,763 bp
+Predicted protein length: 920 amino acids
