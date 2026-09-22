@@ -1,0 +1,99 @@
+#From Gene Mutation to Disease: Understanding How DNA Changes Affect Protein and HUman Phenotypes
+
+Name: Kris Bernadette S. Melon
+Disease: Spinal and Bulbar Muscular Atrophy (SBMA)
+Gene: AR
+Documented Variant: NM_000044.6(AR):c.2296G>A
+
+#Disease Background
+Spinaland Bulbar Muscular Atrophy (SBMA), or  Kennedy disease, is an inherited disorder that mainly affects males and causes progressive weakness and wasting of the face, throat, arms and legs. It results from the
+degeneration of lower motor neurons inn the spinal cord and brainstem (La Spada, 2026;Tanaka et al., 2012).
+
+SBMA is caused by expanded CAG repeats in exon 1 of the AR gene at Xq12. The expansion produces an abnormally long polyglutamine region in the  androgen receptor which can accumulate in the nucleus and contribute
+to motor neuron damage (La Spada et al., 1992; Belikov et al., 2015).
+
+#Gene and Normal Protein
+The official gene symbol is AR, which stands for androgen receptor. The gene is located on the X chromosome at Xq12 and provides instructions for making the androgen receptor protein. This protein receives signals 
+from male sex hormones and helps regulate the activity of specific genes. It can be found in both the cytoplasm and nucleus and is involved in hormone signaling and gene regulation.
+
+#Documented Mutation
+The documented mutation used in this activity was:NM_000044.6(AR):c.2296G>A (p.Ala766Thr)
+
+This mutation involves the substitution of one nucleotide, changing G to A at c.2296 in the AR coding sequence. The nucleotide change results in an amino-acid change from alanine to threonine at position 766. 
+Because only one nucleotide was substituted, the reading frame remained unchanged and the mutation was classified as a missense mutation. The predicted protein remained 920 amino acids long.
+
+#Hypothesis
+If a mutation is introduced into the normal AR coding sequence, it is expected to affect the AR protein depending on the type and location of the mutation. The documented c.2296G>A mutation is expected to change 
+alanine to threonine while keeping the reading frame and protein length unchanged. For comparison, the artificial GAA→GCA mutation is expected to change glutamic acid to alanine without causing a frameshift. 
+These changes may affect the normal function of the androgen receptor.
+
+#Methods
+The normal AR coding sequence from NM_000044.6 was obtained and uploaded to Galaxy as the Wild Type sequence. The WT sequence was translated using the Transeq tool to obtain the predicted androgen receptor 
+protein. The sequence and protein length, reading frame, start and stop codons, and amino-acid sequence were recorded.
+
+For the documented mutation, a copy of the WT AR coding sequence was used. The G nucleotide at c.2296 was changed to A to create the c.2296G>A mutation. The mutated sequence was then translated using Transeq 
+and compared with the WT protein to determine the amino-acid change, reading frame, protein length, and presence of a premature stop codon.
+
+For the artificial mutation, one nucleotide was changed by modifying GAA to GCA at coding sequence position 5. The artificial mutant sequence was translated using Transeq and compared with the WT and documented 
+mutant sequences. The sequences were compared based on mutation type, amino-acid changes, reading frame, protein length, and premature stop codon.
+
+#Results
+The WT AR coding sequence contained 2,763 bp and produced a predicted protein containing 920 amino acids. It began with the ATG start codon, ended with the TGA stop codon, and was translated in Frame 1.
+
+For the documented mutation, the CDS remained 2,763 bp, and the predicted protein remained 920 amino acids. The first amino-acid change occurred at position 766, where alanine was replaced by threonine. The 
+reading frame remained unchanged, and no premature stop codon was produced.
+
+The artificial mutation changed GAA to GCA at coding position 5. This substitution was expected to change the second amino acid from glutamic acid to alanine. Because only one nucleotide was changed, the reading 
+frame and overall protein length remained unchanged.
+
+#MT versus Mutant Protein Comparison
+                         WT        Documented Mutant
+Protein length           920 aa    920 aa
+Mutation                 None      c.2296G>A
+Mutation type            None      Missense
+First amino-acid
+difference               N/A         Amino acid 766
+Reading frame            Frame 1   Unchanged
+Premature stop codon     No        No
+
+The WT and documented mutant proteins remained the same until amino acid 766, where the alanine-to-threonine substitution occurred. No additional changes were observed in the downstream amino-acid sequence, and 
+the mutation did not shorten the protein or alter its reading frame.
+
+#Artificial Mutation Experiment
+For the second experiment, an artificial mutation was introduced by changing GAA to GCA at coding position 5. This single-base change was expected to replace glutamic acid (E) with alanine (A) at the second 
+amino-acid position.
+
+Because the mutation involved only one nucleotide, the reading frame was not expected to shift. The resulting protein was therefore expected to have the same overall length, with a difference only at the affected 
+amino-acid position.
+
+#Interpretation
+AR c.2296G>A → G is replaced by A → alanine 766 changes to threonine → missense mutation → reading frame remains unchanged → 920-aa protein → possible change in AR function → possible disruption of androgen 
+signaling → androgen resistance.
+
+The c.2296G>A variant changes one base in the AR coding sequence, resulting in the substitution of alanine with threonine at amino-acid position 766. The Galaxy results showed that the mutation did not cause a 
+frameshift, premature stop codon, or change in protein length. Because the substituted amino acids have different chemical properties, the change may affect the function of the androgen receptor. Changes in AR 
+function may interfere with normal hormone signaling and gene regulation.
+
+#Limitations
+This experiment relied mainly on DNA sequence analysis and protein translation through Galaxy. Although the results showed the nucleotide substitution, amino-acid change, reading frame, and predicted protein 
+length, they could not directly determine the actual structural or functional effect of the mutation.
+
+The artificial mutation was also created only as a controlled comparison and was not treated as a disease-causing variant. Additional laboratory studies would be needed to determine how these mutations affect 
+the androgen receptor in living cells.
+
+#Conclusion
+The experiment demonstrated how a single change in a DNA sequence can result in a change in the protein sequence. The documented AR c.2296G>A mutation changed alanine at position 766 to threonine, while the 
+reading frame and 920-amino-acid protein length remained unchanged.
+
+The artificial mutation, GAA→GCA, produced a different amino-acid substitution, changing glutamic acid at position 2 to alanine. Both mutations were missense substitutions that did not affect the reading 
+frame or overall protein length, showing that different single-nucleotide changes can produce different amino-acid changes and potentially affect protein function in different ways.
+
+#References
+Reference
+AR gene: MedlinePlus Genetics. (n.d.). https://medlineplus.gov/genetics/gene/ar/
+Batch, J. A., Williams, D. M., Davies, H. R., Brown, B. D., Evans, B. A. J., Hughes, I. A., & Patterson, M. N. (1992). Androgen receptor gene mutations identified by SSCP in fourteen subjects with androgen insensitivity syndrome. Human Molecular Genetics, 1(7), 497–503. https://doi.org/10.1093/hmg/1.7.497
+Belikov, S., Bott, L. C., Fischbeck, K. H., & Wrange, Ö. (2015). The polyglutamine-expanded androgen receptor has increased DNA binding and reduced transcriptional activity. Biochemistry and Biophysics Reports, 3, 134–139. https://doi.org/10.1016/j.bbrep.2015.07.014
+La Spada, A. R., Roling, D. B., Harding, A. E., Warner, C. L., Spiegel, R., Hausmanowa-Petrusewicz, I., Yee, W., & Fischbeck, K. H. (1992). Meiotic stability and genotype – phenotype correlation of the trinucleotide repeat in X–linked spinal and bulbar muscular atrophy. Nature Genetics, 2(4), 301–304. https://doi.org/10.1038/ng1292-301
+La Spada, A. (2026, January 8). Spinal and bulbar muscular atrophy. GeneReviews® - NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK1333/
+Martin, L. (2025, February 26). What to know about spinal bulbar muscular atrophy (SBMA). https://www.medicalnewstoday.com/articles/spinal-bulbar-muscular-atrophy
+Tanaka, F., Katsuno, M., Banno, H., Suzuki, K., Adachi, H., & Sobue, G. (2012). Current status of treatment of spinal and bulbar muscular atrophy. Neural Plasticity, 2012, 1–8. https://doi.org/10.1155/2012/369284
