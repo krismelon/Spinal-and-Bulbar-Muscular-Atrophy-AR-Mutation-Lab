@@ -35,11 +35,11 @@ The codon GAA was changed to GCA at coding sequence position 5. This changes the
 The documented c.2296G>A mutation caused a missense change from alanine to threonine at amino acid 766. The WT and predicted documented mutant proteins were both 920 amino acids long, and the reading frame remained unchanged.
 
 # Tools Used
-NCBI RefSeq — reference HEXA sequence
-NCBI ClinVar — documented mutation information
-Galaxy — sequence processing and translation
-TranslateSeq (Transeq) — translation of CDS sequences
-GitHub — project organization and documentation
+- NCBI RefSeq — reference HEXA sequence
+- NCBI ClinVar — documented mutation information
+- Galaxy — sequence processing and translation
+- TranslateSeq (Transeq) — translation of CDS sequences
+- GitHub — project organization and documentation
 
 # References
 - AR gene: MedlinePlus Genetics. (n.d.). https://medlineplus.gov/genetics/gene/ar/
